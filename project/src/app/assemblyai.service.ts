@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { environment } from 'src/environments/environment';
+// import { environment } from 'src/environments/environment';
 import { AssemblyAI } from 'assemblyai';
 
 
@@ -31,11 +31,11 @@ export class AssemblyaiService {
         // Listen for the stop event
         mediaRecorder.onstop = async () => {
           // Combine the audio chunks into a single Blob
-          const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+          const audioBlob = new Blob(audioChunks);
 
           // Initialize the AssemblyAI client
           const client = new AssemblyAI({
-            apiKey: environment.assemblyAIKey,
+            apiKey: "650497f71e3a40ae8f1721d0d78b2840",
           });
 
           // Request parameters
@@ -59,7 +59,7 @@ export class AssemblyaiService {
         // Stop recording after a certain time (e.g., 5 seconds)
         setTimeout(() => {
           mediaRecorder.stop();
-        }, 5000);
+        }, 3000);
       } catch (error) {
         console.error('Error accessing microphone:', error);
       }
