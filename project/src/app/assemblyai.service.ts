@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment';
+import { AssemblyAI } from 'assemblyai';
+
 
 @Injectable({
   providedIn: 'root'
@@ -32,19 +34,19 @@ export class AssemblyaiService {
           const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
 
           // Initialize the AssemblyAI client
-          const AssemblyAI = require('assemblyai');
           const client = new AssemblyAI({
-            apiKey: environment,
+            apiKey: environment.assemblyAIKey,
           });
 
           // Request parameters
           const data = {
             audio: audioBlob,
+            audio_url:'',
           }
 
           try {
             // Submit the audio for transcription
-            const transcript = await client.transcribe.create(data);
+            const transcript = await client.transcripts.create(data);
             console.log('Transcription:', transcript);
           } catch (error) {
             console.error('Error transcribing audio:', error);
