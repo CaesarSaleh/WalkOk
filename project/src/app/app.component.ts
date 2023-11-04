@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FirebaseService } from './firebase.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'project';
+  constructor(public firebase: FirebaseService){}
+  async test(){
+    await this.firebase.test()
+  }
+  
 }

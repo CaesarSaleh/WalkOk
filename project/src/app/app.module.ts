@@ -16,5 +16,6 @@ import { Text2audioComponent } from './text2audio/text2audio.component';
   ],
   providers: [],
   bootstrap: [AppComponent]
+
 })
 export class AppModule { }
