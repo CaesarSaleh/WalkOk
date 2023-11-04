@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { AssemblyAI } from 'assemblyai';
-
+import { AssemblyaiService } from '../assemblyai.service';
 
 @Component({
   selector: 'app-text2audio',
@@ -9,47 +8,11 @@ import { AssemblyAI } from 'assemblyai';
 })
 
 export class Text2audioComponent {
-  // Input 
-  navigator.mediaDevices.getUserMedia({ audio: true })
-    .then(function (stream) {
-      const mediaRecorder = new MediaRecorder(stream);
-      mediaRecorder.ondataavailable = function (event) {
-        // Handle audio data here
-      };
-      mediaRecorder.start();
-    })
-    .catch(function (error) {
-      console.error('Error accessing microphone:', error);
-    });
+  constructor(private assemblyaiService: AssemblyaiService) { }
 
-
-  // Start by making sure the `assemblyai` package is installed.
-  // If not, you can install it by running the following command:
-  // npm install assemblyai
-
-
-  const client = new AssemblyAI({
-  apiKey: '650497f71e3a40ae8f1721d0d78b2840',
-  });
-
-  const FILE_URL =
-  '';
-
-  // You can also transcribe a local file by passing in a file path
-  // const FILE_URL = './path/to/file.mp3';
-
-  // Request parameters 
-  const data = {
-  audio_url: FILE_URL
+  public startAudioRecordingAndTranscription() {
+    this.assemblyaiService.recordAndTranscribeAudio();
   }
-
-  const run = async () => {
-  const transcript = await client.transcripts.create(data);
-  console.log(transcript.text);
-  };
-
-  run();
-
-  }
+}
 
 
