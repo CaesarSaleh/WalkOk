@@ -9,8 +9,8 @@ import { Marker } from '../map';
   styleUrls: ['./map.component.css']
 })
 export class MapComponent implements OnInit {
-  @ViewChild('map')
-  mapElement!: ElementRef;
+  // @ViewChild('map')
+  // mapElement!: ElementRef;
   map!: mapboxgl.Map;
   
   // data
@@ -22,7 +22,8 @@ export class MapComponent implements OnInit {
 
   ngOnInit() {
     // Initialize the Mapbox map
-    // this.markers = this.firebaseService.getMarkers();
+    this.markers = this.firebaseService.initGetMarkers();
+    console.log(this.markers);
     // this.addMarkersToMap();
     this.initializeMap();
   }
@@ -30,11 +31,12 @@ export class MapComponent implements OnInit {
   initializeMap() {
     this.map = new mapboxgl.Map({
       accessToken: environment.mapbox.accessToken,
-      container: this.mapElement.nativeElement,
+      container: 'map',
       style: 'mapbox://styles/mapbox/streets-v11',
       center: [0, 0], // Set to a default center
       zoom: 2 // Set to a default zoom level
     });
+    this.map.addControl(new mapboxgl.NavigationControl());
   }
 
   addMarkersToMap() {
