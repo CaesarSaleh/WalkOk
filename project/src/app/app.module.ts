@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { Text2audioComponent } from './text2audio/text2audio.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Text2audioComponent
   ],
   imports: [
     BrowserModule,
