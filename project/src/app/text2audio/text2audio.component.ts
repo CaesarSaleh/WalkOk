@@ -11,7 +11,7 @@ export class Text2audioComponent {
   constructor(private assemblyaiService: AssemblyaiService) { }
 
   public startAudioRecordingAndTranscription() {
-    this.assemblyaiService.recordAndTranscribeAudio();
+    this.assemblyaiService.exportAudioToM4A();
   }
 }
 
