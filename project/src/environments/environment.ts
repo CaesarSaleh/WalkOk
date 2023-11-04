@@ -4,7 +4,7 @@ export const environment = {
       },
     production: true,
     firebase: {
-        apiKey: "",
+        apiKey: "AIzaSyB0zZLSXd6CWUy3FL7pwktOTrXrhcfrgdc",
         authDomain: "walkok.firebaseapp.com",
         projectId: "walkok",
         storageBucket: "walkok.appspot.com",

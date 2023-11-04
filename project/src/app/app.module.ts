@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
 import { MapComponent } from './map/map.component';
+import { AngularFireModule } from '@angular/fire/compat';
 
 
 @NgModule({
@@ -12,7 +13,9 @@ import { MapComponent } from './map/map.component';
     AppComponent,
     MapComponent
   ],
-  imports: [BrowserModule],
-  bootstrap: [],
+  imports: [BrowserModule,
+    AngularFireModule.initializeApp(environment.firebase)
+  ],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
