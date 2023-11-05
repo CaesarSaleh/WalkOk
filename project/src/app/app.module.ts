@@ -12,6 +12,7 @@ import { TextanalysisComponent } from './textanalysis/textanalysis.component';
 @NgModule({
   declarations: [AppComponent, TextanalysisComponent],
   imports: [
+    TextanalysisComponent,
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase)
   ],

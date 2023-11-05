@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "chatgpt-api": "^0.0.6",
     "firebase": "^10.5.2"
   }
 }
