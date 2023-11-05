@@ -34,7 +34,7 @@ export class GptComponentComponent implements OnInit {
     var url = 'https://api.openai.com/v1/chat/completions';
     var httpHeaders = new HttpHeaders().set(
       'Authorization',
-      'Bearer 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'
+      'Bearer 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'
     );
 
     var payload = {
