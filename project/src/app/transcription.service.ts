@@ -88,26 +88,7 @@ export class TranscriptionService implements OnInit {
 
   }
   
-  /** WORKING GET DATA FROM FIRESTORE */
-  // public async getTranscript() {
-  //   return new Promise((resolve, reject) => {
-  //     const docRef = doc(getFirestore(), 'messages', 'message');
-      
-  //     onSnapshot(docRef, (doc) => {
-  //       if (doc.exists()) {
-  //         const data = doc.data();
-  //         console.log(data['content'], doc.id);
-  //         resolve(data['content']);
-  //       } else {
-  //         console.log('Document does not exist');
-  //         resolve(null); // You can reject with reject(null) if you prefer
-  //       }
-  //     }, (error) => {
-  //       console.error('Error getting document:', error);
-  //       reject(error);
-  //     });
-  //   });
-  // }
+
 }
 
 
