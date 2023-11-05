@@ -31,7 +31,7 @@ export class FirebaseService {
     return this.firestore.collection(collectionName).valueChanges();
   }
   initGetMarkers(): Observable<any[]> {
-    return this.firestore.collection('markers').valueChanges();
+    return this.firestore.collection('pins').valueChanges();
   }
   // async initGetMarkers() { 
     

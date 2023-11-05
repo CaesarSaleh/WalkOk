@@ -32,6 +32,22 @@ export class MapComponent implements OnInit {
         this.markers.push(marker);
       }
     });
+    // const marker = new mapboxgl.Marker({
+    //   color: "#FFFFFF",
+    //   draggable: true
+    //   }).setLngLat([30.5, 50.5])
+    //   .addTo(map);
+    
+    this.markers.forEach((marker: Marker) => {
+      const el = document.createElement('div');
+      el.className = 'marker';
+
+      new mapboxgl.Marker(el)
+        .setLngLat([marker.longitude, marker.latitude])
+        .setPopup(new mapboxgl.Popup().setHTML(marker.title))
+        .addTo(this.map);
+    });
+
     this.map.on('load', () => {
       this.addMarkersToMap();
       this.addHeatMap();
@@ -44,8 +60,8 @@ export class MapComponent implements OnInit {
       accessToken: environment.mapbox.accessToken,
       container: 'map',
       style: 'mapbox://styles/mapbox/streets-v11',
-      center: [0, 0], // Set to a default center
-      zoom: 2 // Set to a default zoom level
+      center: [2,2], // Set to a default center
+      zoom: 9 // Set to a default zoom level
     });
     this.map.addControl(new mapboxgl.NavigationControl());
   }
