@@ -84,7 +84,7 @@ export class MapComponent implements OnInit {
   addHeatMap() {
     this.map.addSource('earthquakes', {
       'type': 'geojson',
-      'data': 'https://docs.mapbox.com/mapbox-gl-js/assets/earthquakes.geojson'
+      'data': '/Users/adelmuursepp/webdev/WalkOk/project/toronto_coordinates.geojson'
       });
        
       this.map.addLayer(
