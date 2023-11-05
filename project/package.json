@@ -21,6 +21,8 @@
     "@angular/router": "^16.0.0",
     "@types/mapbox-gl": "^2.7.17",
     "mapbox-gl": "^2.15.0",
+    "chatgpt-api": "^0.0.6",
+    "openai": "^4.15.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
@@ -37,5 +39,21 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~5.0.2"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false,
+    "url": false,
+    "querystring": false,
+    "tls": false,
+    "http": false,
+    "net": false,
+    "stream": false,
+    "https": false,
+    "util": false,
+    "crypto": false,
+    "assert": false,
+    "child_process": false
   }
 }
