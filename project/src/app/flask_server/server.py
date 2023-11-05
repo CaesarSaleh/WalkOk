@@ -44,7 +44,7 @@ async def download_audio_file():
 
 
 asyncio.run(download_audio_file())
-API_KEY = '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'
+API_KEY = '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'
 
 model_id = "whisper-1"
 
