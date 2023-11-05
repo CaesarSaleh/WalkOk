@@ -54,11 +54,11 @@ export class MapComponent implements OnInit {
         .addTo(this.map);
     });
 
-    this.map.on('click', (event) => {
-      new mapboxgl.Marker()
-        .setLngLat([event.lngLat.lng, event.lngLat.lat])
-        .addTo(this.map);
-    })
+    // this.map.on('click', (event) => {
+    //   new mapboxgl.Marker()
+    //     .setLngLat([event.lngLat.lng, event.lngLat.lat])
+    //     .addTo(this.map);
+    // })
 
   }
 
@@ -165,15 +165,14 @@ export class MapComponent implements OnInit {
       20
       ],
       // Transition from heatmap to circle layer by zoom level
-      'heatmap-opacity': [
-      'interpolate',
-      ['linear'],
-      ['zoom'],
-      7,
-      1,
-      9,
-      0
-      ]
+      'heatmap-opacity': {
+        default: 1,
+        stops: [
+          [15, 1],
+          [16, 0]
+        ]
+      }
+      
       }
       },
       'waterway-label'

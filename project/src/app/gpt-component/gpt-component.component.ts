@@ -13,8 +13,11 @@ interface Conversation {
 })
 export class GptComponentComponent implements OnInit {
   queryFormGroup!: FormGroup;
+
   text: String = "Reply 1 if and only if the following is inappropriate as a conversation between a stranger grown adult and a child. give brief reasons:"
+
   messages = [{ role: 'system', content: this.text }];
+  conversation: string = '';
   result: any;
   analysis: String = '';
   requestCount = 0; // Initialize the request count to 0
@@ -28,6 +31,8 @@ export class GptComponentComponent implements OnInit {
   handleAskGPT(conversation: Conversation) {
     this.requestCount++; // Increment the request count
     console.log('Request Count:', this.requestCount); // Log the request count
+
+    this.conversation = conversation.content;
 
     this.text = this.text + conversation.content;
 
