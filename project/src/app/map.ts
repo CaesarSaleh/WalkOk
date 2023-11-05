@@ -6,6 +6,12 @@ export class Marker {
     description!: string;
     latitude!: number;
     longitude!: number;
+    constructor(title: string, description: string, latitude: number, longitude: number) {
+        this.title = title;
+        this.description = description;
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
   }
 
 // export interface IGeometry {

@@ -1,10 +1,9 @@
 import { Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
-import { AngularFirestore, DocumentReference } from '@angular/fire/compat/firestore';
+import { AngularFirestore, DocumentReference, DocumentSnapshot, QuerySnapshot } from '@angular/fire/compat/firestore';
 import { AngularFireStorage } from '@angular/fire/compat/storage';
 import { Observable } from 'rxjs';
 import { Marker } from './map';
-
 
 
 @Injectable({
@@ -31,38 +30,23 @@ export class FirebaseService {
   getAllItems(collectionName: string): Observable<any[]> {
     return this.firestore.collection(collectionName).valueChanges();
   }
-  async initGetMarkers() { 
-    // this.firestore.collection('markers').doc('YCkJP80NvDECk8j0amMk').get().subscribe(doc => console.log(doc.data()))
-    this.firestore.collection('markers').valueChanges().subscribe((doc) => 
-    {
-
-      // for (const key in person) {
-      //   if (person.hasOwnProperty(key)) {
-      //     console.log(`${key}: ${person[key]}`);
-      //   }
-      // }
-      for (const marker in doc) {
-        this.markers?.push(JSON.parse(marker))
-      }
-      
-      // console.log(doc)
-      console.log(this.markers);
-      return this.markers;
-      // for (marker: doc) {
-      //   this.markers.append(Marker(marker[]))
-      // }
-    })
-    // this.getAllItems('markers').subscribe((data) => {
-    //   // console.log(data);
-    //   return data;
-    // });
-    // const snapshot = await this.firestore.collection('markers').get()
-    // return snapshot.docs.map(doc => doc.data());
+  initGetMarkers(): Observable<any[]> {
+    return this.firestore.collection('markers').valueChanges();
   }
-
-  // async getMarkers() {
+  // async initGetMarkers() { 
+    
   //   this.firestore.collection('markers').valueChanges().subscribe((data) => {
+  //     console.log(data);
   //     return data;
   //   });
+    // this.firestore.collection('markers').doc('YCkJP80NvDECk8j0amMk').get().subscribe(doc => console.log(doc.data()))
+    // const querySnapshot = await this.firestore.collection('markers').get();
+    // querySnapshot.forEach((doc: DocumentSnapshot) => {
+    //   console.log(doc.id());
+    //   // for (const marker in doc) {
+    //   //   this.markers?.push(JSON.parse(marker))
+    //   // }
+    // });
+    // return this.markers;
   // }
 }
