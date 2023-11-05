@@ -41,6 +41,7 @@ export class MapComponent implements OnInit {
       // this.addMarkersToMap();
       this.addHeatMap();
     });
+    console.log(this.markers)
     this.markers.forEach((marker: Marker) => {
       const el = document.createElement('div');
       el.className = 'marker';
@@ -60,8 +61,8 @@ export class MapComponent implements OnInit {
       accessToken: environment.mapbox.accessToken,
       container: 'map',
       style: 'mapbox://styles/mapbox/light-v11',
-      center: [-79.3,43.6], // Set to a default center
-      zoom: 9 // Set to a default zoom level
+      center: [-79.3,43.8], // Set to a default center
+      zoom: 10 // Set to a default zoom level
     });
     this.map.addControl(new mapboxgl.NavigationControl());
   }
