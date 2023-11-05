@@ -17,8 +17,6 @@ export class GptComponentComponent implements OnInit {
 
   ngOnInit(): void {
     this.handleAskGPT();
-    console.log(this.result)
-    console.log(this.requestCount)
   }
 
   handleAskGPT() {
@@ -28,7 +26,7 @@ export class GptComponentComponent implements OnInit {
     var url = 'https://api.openai.com/v1/chat/completions';
     var httpHeaders = new HttpHeaders().set(
       'Authorization',
-      'Bearer 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'
+      'Bearer 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'
     );
 
     var payload = {
@@ -39,6 +37,7 @@ export class GptComponentComponent implements OnInit {
     this.httpClient.post(url, payload, { headers: httpHeaders }).subscribe({
       next: (resp) => {
         this.result = resp;
+        console.log(this.result); // Log the result after the HTTP request is completed
       },
       error: (err) => {
         // Handle errors
