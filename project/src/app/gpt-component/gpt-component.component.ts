@@ -9,8 +9,10 @@ import { FormGroup } from '@angular/forms';
 })
 export class GptComponentComponent implements OnInit {
   queryFormGroup!: FormGroup;
-  messages = [{ role: 'system', content: 'Hi' }];
+  text: String = "classify the following text as whether the text is implying luring kids to cause harm to them(answer yes if it's trying to lure them):  "
+  messages = [{ role: 'system', content: this.text }];
   result: any;
+  analysis: String = '';
   requestCount = 0; // Initialize the request count to 0
 
   constructor(private httpClient: HttpClient) {}
@@ -26,7 +28,7 @@ export class GptComponentComponent implements OnInit {
     var url = 'https://api.openai.com/v1/chat/completions';
     var httpHeaders = new HttpHeaders().set(
       'Authorization',
-      'Bearer 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'
+      'Bearer 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'
     );
 
     var payload = {
@@ -37,7 +39,8 @@ export class GptComponentComponent implements OnInit {
     this.httpClient.post(url, payload, { headers: httpHeaders }).subscribe({
       next: (resp) => {
         this.result = resp;
-        console.log(this.result); // Log the result after the HTTP request is completed
+        console.log(this.result.choices[0].message.content); // Log the result after the HTTP request is completed
+        this.analysis = this.result.choices[0].message.content
       },
       error: (err) => {
         // Handle errors
