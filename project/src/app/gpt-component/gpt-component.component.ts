@@ -13,7 +13,7 @@ interface Conversation {
 })
 export class GptComponentComponent implements OnInit {
   queryFormGroup!: FormGroup;
-  text: String = "Please don't say hi at me. AND say 1 if what I said is weird and 0 if not."
+  text: String = "Reply 1 if and only if the following is inappropriate as a conversation between a stranger grown adult and a child. give brief reasons:"
   messages = [{ role: 'system', content: this.text }];
   result: any;
   analysis: String = '';
@@ -34,7 +34,7 @@ export class GptComponentComponent implements OnInit {
     var url = 'https://api.openai.com/v1/chat/completions';
     var httpHeaders = new HttpHeaders().set(
       'Authorization',
-      'Bearer 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'
+      'Bearer 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'
     );
 
     var payload = {
@@ -52,6 +52,6 @@ export class GptComponentComponent implements OnInit {
         // Handle errors
       }
     });
-    // return this.analysis;
+    return this.analysis;
   }
 }

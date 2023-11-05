@@ -11,8 +11,5 @@ export class Text2audioComponent {
   public async speech2audio() {
     this.transcriptionService.speech2audio()
   }
-  public async getTranscript(){ 
-    this.transcriptionService.getTranscript();
-
-   }
+  
 }
