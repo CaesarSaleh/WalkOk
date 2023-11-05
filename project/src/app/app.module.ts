@@ -4,8 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
-import { Text2audioComponent } from './text2audio/text2audio.component';
 import { FIREBASE_OPTIONS } from '@angular/fire/compat';
+import { Text2audioComponent } from './text2audio/text2audio.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { FIREBASE_OPTIONS } from '@angular/fire/compat';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
   ],
   providers: [{ provide: FIREBASE_OPTIONS, useValue: environment.firebaseConfig }],
   bootstrap: [AppComponent]

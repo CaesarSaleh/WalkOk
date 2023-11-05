@@ -1,16 +1,18 @@
 import { Component } from '@angular/core';
-import { AssemblyaiService } from '../assemblyai.service';
-
+import {TranscriptionService} from '../transcription.service';
 @Component({
   selector: 'app-text2audio',
   templateUrl: './text2audio.component.html',
   styleUrls: ['./text2audio.component.css']
 })
 export class Text2audioComponent {
-  constructor(private assemblyaiService: AssemblyaiService) { }
+  constructor(private transcriptionService: TranscriptionService) { }
 
-  public startAudioRecordingAndTranscription() {
-    this.assemblyaiService.exportAudioToM4A();
-    this.assemblyaiService.startTranscription();
+  public async speech2audio() {
+    this.transcriptionService.speech2audio()
   }
+  public async getTranscript(){ 
+    this.transcriptionService.getTranscript();
+
+   }
 }

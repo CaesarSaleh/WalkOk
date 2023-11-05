@@ -19,6 +19,7 @@
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
+    "@google-cloud/speech": "^6.0.2",
     "assemblyai": "^3.0.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
@@ -41,6 +42,16 @@
     "fs": false,
     "path": false,
     "os": false,
-    "stream": false
+    "url": false,
+    "querystring": false,
+    "tls": false,
+    "http": false,
+    "net": false,
+    "stream": false,
+    "https": false,
+    "util": false,
+    "crypto": false,
+    "assert": false,
+    "child_process": false
   }
 }
