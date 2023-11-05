@@ -19,6 +19,8 @@
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
+    "@types/mapbox-gl": "^2.7.17",
+    "mapbox-gl": "^2.15.0",
     "chatgpt-api": "^0.0.6",
     "openai": "^4.15.3",
     "rxjs": "~7.8.0",

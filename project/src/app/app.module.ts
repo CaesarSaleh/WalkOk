@@ -3,12 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
+import { MapComponent } from './map/map.component';
 import { GptComponentComponent } from './gpt-component/gpt-component.component';
 
 import { FIREBASE_OPTIONS, AngularFireModule } from '@angular/fire/compat';
 import { Text2audioComponent } from './text2audio/text2audio.component';
 import { AppRoutingModule } from './app-routing.module';
-
 
 @NgModule({
   
@@ -16,6 +16,7 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     Text2audioComponent,
     GptComponentComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
