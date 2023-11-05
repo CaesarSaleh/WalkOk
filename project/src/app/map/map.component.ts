@@ -14,6 +14,8 @@ export class MapComponent implements OnInit {
   
   // data
   public markers: Marker[] = []
+  lat!: number;
+  lng!: number;
 
   constructor(private firebaseService: FirebaseService) {
   }
@@ -52,7 +54,11 @@ export class MapComponent implements OnInit {
         .addTo(this.map);
     });
 
-    
+    this.map.on('click', (event) => {
+      new mapboxgl.Marker()
+        .setLngLat([event.lngLat.lng, event.lngLat.lat])
+        .addTo(this.map);
+    })
 
   }
 
@@ -65,6 +71,20 @@ export class MapComponent implements OnInit {
       zoom: 10 // Set to a default zoom level
     });
     this.map.addControl(new mapboxgl.NavigationControl());
+  }
+
+  makePin(title: string) {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(position => {
+       this.lat = position.coords.latitude;
+       this.lng = position.coords.longitude;
+       new mapboxgl.Marker()
+        .setLngLat([this.lng, this.lat])
+        .setPopup(new mapboxgl.Popup().setHTML(title))
+        .addTo(this.map);
+     }
+     );
+    }
   }
 
   addMarkersToMap() {
