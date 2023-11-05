@@ -13,8 +13,11 @@ interface Conversation {
 })
 export class GptComponentComponent implements OnInit {
   queryFormGroup!: FormGroup;
-  text: String = "Please don't say hi at me. AND say 1 if what I said is weird and 0 if not."
+
+  text: String = "Reply 1 if and only if the following is inappropriate as a conversation between a stranger grown adult and a child. give brief reasons:"
+
   messages = [{ role: 'system', content: this.text }];
+  conversation: string = '';
   result: any;
   analysis: String = '';
   requestCount = 0; // Initialize the request count to 0
@@ -29,12 +32,14 @@ export class GptComponentComponent implements OnInit {
     this.requestCount++; // Increment the request count
     console.log('Request Count:', this.requestCount); // Log the request count
 
+    this.conversation = conversation.content;
+
     this.text = this.text + conversation.content;
 
     var url = 'https://api.openai.com/v1/chat/completions';
     var httpHeaders = new HttpHeaders().set(
       'Authorization',
-      'Bearer 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'
+      'Bearer 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'
     );
 
     var payload = {
@@ -52,6 +57,6 @@ export class GptComponentComponent implements OnInit {
         // Handle errors
       }
     });
-    // return this.analysis;
+    return this.analysis;
   }
 }
