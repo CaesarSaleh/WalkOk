@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Gloria+Hallelujah&family=Josefin+Sans&family=Roboto:wght@300;400&display=swap");
+
+@font-face {
+  font-family: "Gloria";
+  src: url("./assets/Gloria_Hallelujah/GloriaHallelujah-Regular.ttf");
+}
+
+.navbar-brand #logo {
+  font: "Gloria";
+}
+
+.navbar {
+  background-color: #4facd3;
+  color: white !important;
+}
