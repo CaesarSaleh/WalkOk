@@ -37,5 +37,21 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~5.0.2"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false,
+    "url": false,
+    "querystring": false,
+    "tls": false,
+    "http": false,
+    "net": false,
+    "stream": false,
+    "https": false,
+    "util": false,
+    "crypto": false,
+    "assert": false,
+    "child_process": false
   }
 }
