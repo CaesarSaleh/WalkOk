@@ -8,6 +8,7 @@ import { HttpClient } from '@angular/common/http';
 import { observeOn } from 'rxjs';
 import { GptComponentComponent } from './gpt-component/gpt-component.component';
 import { MapComponent } from './map/map.component';
+import { Title } from '@angular/platform-browser';
 
 interface Conversation {
   content: string;
@@ -34,7 +35,7 @@ export class TranscriptionService implements OnInit {
         console.log('Response from server:', response);
         console.log(this.gpt.handleAskGPT(response));
         if (response[response.length - 1] == 1){
-          this.map.makePin();
+          this.map.makePin(this.gpt.conversation);
         }
       },
       (error) => {
