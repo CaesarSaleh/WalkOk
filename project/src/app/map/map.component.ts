@@ -14,6 +14,8 @@ export class MapComponent implements OnInit {
   
   // data
   public markers: Marker[] = []
+  lat!: number;
+  lng!: number;
 
   constructor(private firebaseService: FirebaseService) {
   }
@@ -41,6 +43,7 @@ export class MapComponent implements OnInit {
       // this.addMarkersToMap();
       this.addHeatMap();
     });
+    console.log(this.markers)
     this.markers.forEach((marker: Marker) => {
       const el = document.createElement('div');
       el.className = 'marker';
@@ -51,7 +54,11 @@ export class MapComponent implements OnInit {
         .addTo(this.map);
     });
 
-    
+    this.map.on('click', (event) => {
+      new mapboxgl.Marker()
+        .setLngLat([event.lngLat.lng, event.lngLat.lat])
+        .addTo(this.map);
+    })
 
   }
 
@@ -60,10 +67,24 @@ export class MapComponent implements OnInit {
       accessToken: environment.mapbox.accessToken,
       container: 'map',
       style: 'mapbox://styles/mapbox/light-v11',
-      center: [-79.3,43.6], // Set to a default center
-      zoom: 9 // Set to a default zoom level
+      center: [-79.3,43.8], // Set to a default center
+      zoom: 10 // Set to a default zoom level
     });
     this.map.addControl(new mapboxgl.NavigationControl());
+  }
+
+  makePin(title: string) {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(position => {
+       this.lat = position.coords.latitude;
+       this.lng = position.coords.longitude;
+       new mapboxgl.Marker()
+        .setLngLat([this.lng, this.lat])
+        .setPopup(new mapboxgl.Popup().setHTML(title))
+        .addTo(this.map);
+     }
+     );
+    }
   }
 
   addMarkersToMap() {
