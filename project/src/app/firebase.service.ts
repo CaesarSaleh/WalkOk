@@ -4,6 +4,7 @@ import { AngularFirestore, DocumentReference } from '@angular/fire/compat/firest
 import { AngularFireStorage } from '@angular/fire/compat/storage';
 
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -11,6 +12,7 @@ export class FirebaseService {
 
   constructor(public firebaseAuth: AngularFireAuth, public firestore: AngularFirestore, public firestorage:AngularFireStorage) {}
   async test(){
+    console.log('from firebase trying')
     this.firestore.collection('test').doc('test').get().subscribe((doc) => {
       console.log(doc.data())
     })
