@@ -18,11 +18,10 @@ interface Conversation {
   providedIn: 'root'
 })
 export class TranscriptionService implements OnInit {
-  getTranscript() {
-    throw new Error('Method not implemented.');
-  }
   storage: any;
+
   constructor(private http: HttpClient, private gpt: GptComponentComponent, private map: MapComponent) { }
+
   ngOnInit() {
     this.sendRequestToServer();
   }
@@ -40,11 +39,9 @@ export class TranscriptionService implements OnInit {
       },
       (error) => {
         console.error('Error:', error);
-        
       }
     );
   }
-
 
   public async speech2audio(): Promise<string> {
     // Access the user's microphone and record audio
@@ -60,51 +57,45 @@ export class TranscriptionService implements OnInit {
         }
       };
 
-    // Listen for the stop event
-    mediaRecorder.onstop = async () => {
-      // Combine the audio chunks into a single Blob
-      const audioBlob = new Blob(audioChunks, { type: 'audio/m4a' });
-      const storage = getStorage();
-      const storageRef = ref(storage, 'audio.m4a');
+      // Listen for the stop event
+      mediaRecorder.onstop = async () => {
+        // Combine the audio chunks into a single Blob
+        const audioBlob = new Blob(audioChunks, { type: 'audio/m4a' });
+        const storage = getStorage();
+        const storageRef = ref(storage, 'audio.m4a');
 
-      // Convert Blob to Uint8Array
-      const reader = new FileReader();
-      reader.onload = (event) => {
-        const arrayBuffer = event.target?.result as ArrayBuffer | null;
-        if (arrayBuffer) {
-          const uint8Array = new Uint8Array(arrayBuffer);
+        // Convert Blob to Uint8Array
+        const reader = new FileReader();
+        reader.onload = (event) => {
+          const arrayBuffer = event.target?.result as ArrayBuffer | null;
+          if (arrayBuffer) {
+            const uint8Array = new Uint8Array(arrayBuffer);
 
-          // Upload the Uint8Array
-          uploadBytes(storageRef, uint8Array)
-            .then((snapshot) => {
-              console.log('Uploaded Successfully');
-            })
-            .catch((err) => {
-              console.error('Error uploading audio:', err);
-            });
-        }
+            // Upload the Uint8Array
+            uploadBytes(storageRef, uint8Array)
+              .then((snapshot) => {
+                console.log('Uploaded Successfully');
+              })
+              .catch((err) => {
+                console.error('Error uploading audio:', err);
+              });
+          }
+        };
+
+        reader.readAsArrayBuffer(audioBlob);
       };
 
-      reader.readAsArrayBuffer(audioBlob);
-    };
-      // Start recording
       mediaRecorder.start();
 
-      // Stop recording after a certain time (e.g., 5 seconds)
       setTimeout(() => {
         mediaRecorder.stop();
-      }, 3000);
-      this.sendRequestToServer()
-    });
+      }, 20000);
 
-
+      setTimeout(() => {
+        const { spawn } = require('child_process');
+        const pyProg = spawn('python', ["d:/Workspaces/hackathons/newhacks/WalkOk/project/src/app/flask_server/server.py"].concat());
+        this.sendRequestToServer();
+      }, 10000);
+    })
   }
-  
-
 }
-
-
-
-
-
-

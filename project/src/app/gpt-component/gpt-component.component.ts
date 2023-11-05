@@ -13,7 +13,9 @@ interface Conversation {
 })
 export class GptComponentComponent implements OnInit {
   queryFormGroup!: FormGroup;
-  text: String = "Say 1 if what I said is weird and 0 if not: "
+
+  text: String = "Reply 1 if and only if the following is inappropriate as a conversation between a stranger grown adult and a child. give brief reasons:"
+
   messages = [{ role: 'system', content: this.text }];
   conversation: string = '';
   result: any;
@@ -37,7 +39,7 @@ export class GptComponentComponent implements OnInit {
     var url = 'https://api.openai.com/v1/chat/completions';
     var httpHeaders = new HttpHeaders().set(
       'Authorization',
-      'Bearer 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'
+      'Bearer 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'
     );
 
     var payload = {
