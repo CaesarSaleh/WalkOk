@@ -60,7 +60,7 @@ export class MapComponent implements OnInit {
       accessToken: environment.mapbox.accessToken,
       container: 'map',
       style: 'mapbox://styles/mapbox/streets-v11',
-      center: [2,2], // Set to a default center
+      center: [-79.3,43.6], // Set to a default center
       zoom: 9 // Set to a default zoom level
     });
     this.map.addControl(new mapboxgl.NavigationControl());
@@ -80,11 +80,261 @@ export class MapComponent implements OnInit {
         .addTo(this.map);
     });
   }
-
+  dataObject = {
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "feature1",
+          "mag": 3.093643324822521,
+          "time": 1507425650893
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.54487634295495,
+            43.59579607426845,
+            0.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "feature2",
+          "mag": 3.610399406570914,
+          "time": 1507425650893
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.427980292235,
+            43.655228541601666,
+            0.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "feature4",
+          "mag": 4.554408653517734,
+          "time": 1507425650893
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.4636244845789,
+            43.75140271844349,
+            0.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "feature5",
+          "mag": 0.8099531464469634,
+          "time": 1507425650893
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.37191258083531,
+            43.88947822306219,
+            0.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "feature6",
+          "mag": 1.1441101800212528,
+          "time": 1507425650893
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.39932872542637,
+            43.523723108712744,
+            0.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "feature32",
+          "mag": 0.6997502325057725,
+          "time": 1507425650893
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.50850974206857,
+            43.70300891142794,
+            0.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "feature33",
+          "mag": 3.126650384881435,
+          "time": 1507425650893
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.543986814668,
+            43.701019755439475,
+            0.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "feature34",
+          "mag": 2.04473797219207,
+          "time": 1507425650893
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.38150383673775,
+            43.89991763156313,
+            0.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "feature35",
+          "mag": 4.976584955726107,
+          "time": 1507425650893
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.5302583001846,
+            43.63672095634308,
+            0.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "feature36",
+          "mag": 3.789867991389653,
+          "time": 1507425650893
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.49161736697656,
+            43.72823015647393,
+            0.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "feature37",
+          "mag": 1.5036156705777244,
+          "time": 1507425650893
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.31140785076755,
+            43.8724451351202,
+            0.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "feature38",
+          "mag": 0.5872074724019372,
+          "time": 1507425650893
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.2427511588476,
+            43.80923626281941,
+            0.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "feature39",
+          "mag": 4.832808825303216,
+          "time": 1507425650893
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.60575174868835,
+            43.689156439366975,
+            0.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "feature40",
+          "mag": 1.8198168190869874,
+          "time": 1507425650893
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.47128539123514,
+            43.82620316174835,
+            0.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "feature41",
+          "mag": 1.7677507432675372,
+          "time": 1507425650893
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.53927723564632,
+            43.79633731336125,
+            0.0
+          ]
+        }
+      }
+    ]
+  }
   addHeatMap() {
     this.map.addSource('earthquakes', {
       'type': 'geojson',
-      'data': '@app/toronto_coordinates.geojson'
+      'data': 'http://localhost:3000/coordinates'
       });
        
       this.map.addLayer(
