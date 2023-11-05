@@ -1,10 +1,9 @@
 import { Injectable } from '@angular/core';
-import { environment } from 'src/environments/environment';
+import { environment } from 'src/environments/environment.development';
 import { AssemblyAI } from 'assemblyai';
   // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from 'firebase/analytics';
-import { getStorage, ref, uploadBytes, uploadString } from 'firebase/storage';
+import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 
 
 const firebaseConfig = {
@@ -14,7 +13,7 @@ projectId: 'walkok',
 storageBucket: 'walkok.appspot.com',
 messagingSenderId: '376219348185',
 appId: '1:376219348185:web:aa2ffbd197bb1fcbbc22c8',
-measurementId: 'G-HHL5K4PS32', // Optional if you have measurement ID
+measurementId: 'G-HHL5K4PS32', 
 };
 
 const app = initializeApp(firebaseConfig);
@@ -25,63 +24,6 @@ const app = initializeApp(firebaseConfig);
 export class AssemblyaiService {
 
   constructor() { }
-
-// public async recordAndTranscribeAudio() {
-//   // Check if the browser supports the MediaRecorder API
-//   if ("MediaRecorder" in window) {
-//     try {
-//       // Access the user's microphone
-//       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-
-//       // Create a MediaRecorder instance and configure it
-//       const mediaRecorder = new MediaRecorder(stream);
-//       const audioChunks: Blob[] = [];
-
-//       // Listen for data available events
-//       mediaRecorder.ondataavailable = (event) => {
-//         if (event.data.size > 0) {
-//           audioChunks.push(event.data);
-//         }
-//       };
-
-//       // Listen for the stop event
-//       mediaRecorder.onstop = async () => {
-//         // Combine the audio chunks into a single Blob
-//         const audioBlob = new Blob(audioChunks);
-//         // Initialize the AssemblyAI client
-//         const client = new AssemblyAI({
-//           apiKey: "650497f71e3a40ae8f1721d0d78b2840"
-//         });
-
-//         // Request parameters
-//         const data = {
-//           audio: audioBlob,
-//           audio_url:'',
-//         }
-
-//         try {
-//           // Submit the audio for transcription
-//           const transcript = await client.transcripts.create(data);
-//           console.log('Transcription:', transcript);
-//         } catch (error) {
-//           console.error('Error transcribing audio:', error);
-//         }
-//       };
-
-//       // Start recording
-//       mediaRecorder.start();
-
-//       // Stop recording after a certain time (e.g., 5 seconds)
-//       setTimeout(() => {
-//         mediaRecorder.stop();
-//       }, 3000);
-//     } catch (error) {
-//       console.error('Error accessing microphone:', error);
-//     }
-//   } else {
-//     console.error("MediaRecorder not supported in this browser.");
-//   }
-// }
 
   public async exportAudioToM4A(): Promise<string> {
     // Access the user's microphone and record audio
@@ -135,6 +77,56 @@ export class AssemblyaiService {
   }
 
   public async startTranscription() {
+    const storage = getStorage();
+    const audioFileRef = ref(storage, 'audio.m4a'); // Replace with the correct path to your audio file.
+
+    getDownloadURL(audioFileRef)
+    .then((url) => {
+      // You now have the download URL of the audio file.
+      // Use this URL to fetch the audio data.
+      fetch(url)
+        .then((response) => response.arrayBuffer())
+        .then((audioData) => {
+          // 'audioData' contains the binary audio data.
+          // You can proceed to submit it to AssemblyAI.
+          this.submitAudioToAssemblyAI(audioData);
+        })
+        .catch((error) => {
+          console.error('Error fetching audio data:', error);
+        });
+    })
+    .catch((error) => {
+      console.error('Error getting download URL:', error);
+    });
+    
     
   }
+
+
+  public async submitAudioToAssemblyAI(audioData: BlobPart) {
+  // Initialize the AssemblyAI client with your API key
+  const client = new AssemblyAI({
+    apiKey: environment.assemblyAIKey,
+  });
+
+  // Create a Blob from the audio data
+  const audioBlob = new Blob([audioData], { type: 'audio/m4a' });
+
+  // Request parameters
+  const data = {
+    audio: audioBlob,
+    audio_url: '', // This should be an empty string since you're uploading audio data.
+  };
+
+  // Submit the audio for transcription
+  client.transcripts
+    .create(data)
+    .then((transcript) => {
+      console.log('Transcription:', transcript);
+    })
+    .catch((error) => {
+      console.error('Error transcribing audio:', error);
+    });
+  }
+
 }

@@ -12,7 +12,6 @@ export class Text2audioComponent {
 
   public startAudioRecordingAndTranscription() {
     this.assemblyaiService.exportAudioToM4A();
+    this.assemblyaiService.startTranscription();
   }
 }
-
-
