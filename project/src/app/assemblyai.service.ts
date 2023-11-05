@@ -2,21 +2,10 @@ import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment.development';
 import { AssemblyAI } from 'assemblyai';
   // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
 import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 
 
-const firebaseConfig = {
-apiKey: 'AIzaSyB0zZLSXd6CWUy3FL7pwktOTrXrhcfrgdc',
-authDomain: 'walkok.firebaseapp.com',
-projectId: 'walkok',
-storageBucket: 'walkok.appspot.com',
-messagingSenderId: '376219348185',
-appId: '1:376219348185:web:aa2ffbd197bb1fcbbc22c8',
-measurementId: 'G-HHL5K4PS32', 
-};
 
-const app = initializeApp(firebaseConfig);
 
 @Injectable({
   providedIn: 'root'

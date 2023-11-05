@@ -6,7 +6,6 @@ import { AssemblyaiService } from '../assemblyai.service';
   templateUrl: './text2audio.component.html',
   styleUrls: ['./text2audio.component.css']
 })
-
 export class Text2audioComponent {
   constructor(private assemblyaiService: AssemblyaiService) { }
 
