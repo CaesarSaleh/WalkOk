@@ -84,7 +84,7 @@ export class MapComponent implements OnInit {
   addHeatMap() {
     this.map.addSource('earthquakes', {
       'type': 'geojson',
-      'data': '/Users/adelmuursepp/webdev/WalkOk/project/toronto_coordinates.geojson'
+      'data': '@app/toronto_coordinates.geojson'
       });
        
       this.map.addLayer(
