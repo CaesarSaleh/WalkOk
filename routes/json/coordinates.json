@@ -1,0 +1,5611 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature1",
+        "mag": 1.115268388619387,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29674414362579,
+          43.828412091767845,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature2",
+        "mag": 2.4180578311914886,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30450029371087,
+          43.86216006206113,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature3",
+        "mag": 0.6274582764102887,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55964829583566,
+          43.799492678525795,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature4",
+        "mag": 1.5516308735361584,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.52081601864131,
+          44.05293899946781,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature5",
+        "mag": 0.20182988577237881,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5809201392729,
+          43.73958659453016,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature6",
+        "mag": 3.9705409798981526,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51420329562754,
+          44.05210125681595,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature7",
+        "mag": 3.6003982137598447,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34467994874073,
+          43.76135921110602,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature8",
+        "mag": 1.2620943789273014,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32806407058779,
+          43.731986765092216,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature9",
+        "mag": 4.8663112231474335,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43687176680703,
+          43.857967721883576,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature10",
+        "mag": 4.516276547190837,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32535466041057,
+          43.91416150811226,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature11",
+        "mag": 4.614870192663883,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.59503638293785,
+          43.79803895951629,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature12",
+        "mag": 0.29180895958699105,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.22428487919005,
+          43.96067130632133,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature13",
+        "mag": 0.5374854112723354,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46013688126051,
+          43.95762679356744,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature14",
+        "mag": 1.7175287394640326,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4871814326553,
+          43.76506577354636,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature15",
+        "mag": 1.8005768877532118,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30464879868387,
+          44.00617992072868,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature16",
+        "mag": 4.453171502433469,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38922239616328,
+          43.73238839491852,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature17",
+        "mag": 0.5799454680103527,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.60919178766807,
+          43.98855559075117,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature18",
+        "mag": 0.5532730829257043,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30322747573575,
+          43.85298430634228,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature19",
+        "mag": 2.169005732012788,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.61847587425547,
+          43.8678500783016,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature20",
+        "mag": 2.502484854551117,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34699531820816,
+          43.84721908489632,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature21",
+        "mag": 2.9299068886170736,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3838229995293,
+          43.7939156821119,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature22",
+        "mag": 1.952199454878751,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42188607415278,
+          43.91374209191308,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature23",
+        "mag": 1.5252544934539864,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.52024073235697,
+          44.08585415232195,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature24",
+        "mag": 4.364560207086003,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41886181873541,
+          44.03412421576373,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature25",
+        "mag": 0.3621263829491611,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28940487704271,
+          43.87295965422531,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature26",
+        "mag": 0.7887182684812849,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.53993594917988,
+          43.97093354763115,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature27",
+        "mag": 3.9692984113391034,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27956945052726,
+          44.057209827956385,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature28",
+        "mag": 0.7687558743670697,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45057806382177,
+          43.98970924780279,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature29",
+        "mag": 1.7748420303195362,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54737020428678,
+          43.750233209472114,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature30",
+        "mag": 0.0406995385897968,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50658572541437,
+          43.84670492427131,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature31",
+        "mag": 4.88229506314402,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4257720766864,
+          43.766790214709985,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature32",
+        "mag": 4.517833499568341,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3688280352873,
+          43.966505472760225,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature33",
+        "mag": 3.326639150871774,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3511696645821,
+          43.80982806027055,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature34",
+        "mag": 4.523162578145406,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23443982960809,
+          43.89276040030938,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature35",
+        "mag": 0.916610461389874,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2793455989293,
+          43.97284217376948,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature36",
+        "mag": 3.824751322560134,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.47363704871825,
+          43.873738946005794,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature37",
+        "mag": 1.3737308125951442,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29863808245472,
+          43.9375512509677,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature38",
+        "mag": 0.33552761182467805,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3116047121013,
+          43.84053225093955,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature39",
+        "mag": 0.023683052208662847,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.53420820394992,
+          43.955362067742264,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature40",
+        "mag": 2.81938786732598,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45929218584568,
+          43.850660496248125,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature41",
+        "mag": 1.1747272425177047,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3336880171183,
+          43.95520747943074,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature42",
+        "mag": 0.23708432284604675,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42329404443741,
+          43.81238538070767,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature43",
+        "mag": 2.790216252236023,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56031968439991,
+          43.92828006558601,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature44",
+        "mag": 1.5230486642696643,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46199627334992,
+          43.9660196710623,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature45",
+        "mag": 4.038068590124773,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31642076272733,
+          43.93417385383442,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature46",
+        "mag": 4.083054545017314,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.60817642173102,
+          43.97885212525506,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature47",
+        "mag": 0.46520549559078306,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23594227399268,
+          43.7859576750041,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature48",
+        "mag": 4.0834635483176696,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40347391131074,
+          44.03590999448285,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature49",
+        "mag": 0.8572753823231555,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54077387401767,
+          44.00844733473564,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature50",
+        "mag": 1.3239715409356745,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55813383382423,
+          44.041870718455364,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature51",
+        "mag": 3.8853809872832974,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.53614926613112,
+          43.97129665859564,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature52",
+        "mag": 0.645937019125028,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34373692107047,
+          43.89628541885028,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature53",
+        "mag": 4.857017367996004,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3734415774351,
+          44.0232314871057,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature54",
+        "mag": 3.1674489246693267,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.33219409079463,
+          43.80749475534766,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature55",
+        "mag": 2.774615518792392,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35631555706706,
+          43.877917701844325,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature56",
+        "mag": 0.2712501810226692,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34408575638898,
+          44.09023125883023,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature57",
+        "mag": 2.473036277712536,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.47157614652903,
+          43.75043550420218,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature58",
+        "mag": 1.340540567822735,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34169174663836,
+          43.99240955693324,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature59",
+        "mag": 4.91179128079928,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44738437903385,
+          44.0188136346805,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature60",
+        "mag": 3.2870138651131326,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.53306589472336,
+          43.936671064946424,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature61",
+        "mag": 1.8447634597710227,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46171039903264,
+          43.83178804627195,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature62",
+        "mag": 4.5107359761085615,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.61002475181316,
+          43.98977953953142,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature63",
+        "mag": 2.1222593345628473,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.22189768557635,
+          44.06716822141833,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature64",
+        "mag": 2.9647067384021764,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26795590051128,
+          43.86158062575857,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature65",
+        "mag": 2.004348925145833,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37419235159643,
+          44.07052895253558,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature66",
+        "mag": 2.792168552184177,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28409939769406,
+          43.762898947173476,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature67",
+        "mag": 1.764733952338036,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36314942918952,
+          43.94961017038748,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature68",
+        "mag": 1.9651619404025844,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36355253127522,
+          43.85202656917576,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature69",
+        "mag": 1.5958085731359306,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31750535274108,
+          44.006050281925916,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature70",
+        "mag": 0.8101207116420839,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4836846073158,
+          43.909208008812875,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature71",
+        "mag": 2.075290154291346,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51499826511576,
+          43.89836723163377,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature72",
+        "mag": 0.6364228595588889,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38401437493991,
+          43.73310694969586,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature73",
+        "mag": 1.5393958817383002,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50521659399158,
+          43.863193825481005,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature74",
+        "mag": 3.478110863275448,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38220127350694,
+          43.88634528882087,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature75",
+        "mag": 1.5424476656230706,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40071314576542,
+          43.91432856301423,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature76",
+        "mag": 1.1051870062347957,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.22207630719507,
+          43.78160231846996,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature77",
+        "mag": 2.099314659384376,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38353619862112,
+          43.8406109203837,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature78",
+        "mag": 2.4751557817014804,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.60023995122297,
+          43.80257473912117,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature79",
+        "mag": 4.231081711693415,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49880447622797,
+          43.98518751339015,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature80",
+        "mag": 4.887033620058375,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.52924224066888,
+          43.72308327410439,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature81",
+        "mag": 0.451597345369219,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.48938295092556,
+          43.99195235186007,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature82",
+        "mag": 3.8964466039547525,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3179224529286,
+          43.99942730693891,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature83",
+        "mag": 0.6386067373282223,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.47959143303859,
+          43.773947315705804,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature84",
+        "mag": 1.704213778039051,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29510265587892,
+          43.78636585269238,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature85",
+        "mag": 4.995781502437174,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50916812227685,
+          43.787414201782184,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature86",
+        "mag": 1.7671918499984518,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55086789869978,
+          44.09202816602628,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature87",
+        "mag": 2.008583863656257,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46414504065565,
+          43.86643290889873,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature88",
+        "mag": 2.5209523366689073,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55912330277923,
+          43.89334362059239,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature89",
+        "mag": 2.658851285605581,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28529379487047,
+          43.95950908427735,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature90",
+        "mag": 2.1167650991048936,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4403736517336,
+          44.066678111569175,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature91",
+        "mag": 4.138860478973251,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25250481398899,
+          44.09068262520236,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature92",
+        "mag": 4.841943236987445,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.22508167155559,
+          43.83513588495306,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature93",
+        "mag": 0.9969475640864789,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39178825121421,
+          43.73823816192158,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature94",
+        "mag": 0.8409383634737139,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29546434169309,
+          43.707910960538634,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature95",
+        "mag": 4.554515635306076,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26929308132563,
+          43.89555916827026,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature96",
+        "mag": 0.8317059512386715,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37755200819304,
+          44.0795133084157,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature97",
+        "mag": 4.652552262823876,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55703521037321,
+          43.74504567357162,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature98",
+        "mag": 0.16097180884883378,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39260965487047,
+          43.859205641052625,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature99",
+        "mag": 4.439745370464399,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34178580101933,
+          43.76176961762932,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature100",
+        "mag": 4.7615874253698305,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3950078802749,
+          44.06261159124636,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature101",
+        "mag": 3.1506570432473,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55162894315278,
+          43.7917744849221,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature102",
+        "mag": 0.459903576872957,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2564117974731,
+          43.841178403939175,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature103",
+        "mag": 4.2182623539508874,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45574521222224,
+          43.9193555685115,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature104",
+        "mag": 1.7503145733337004,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56155435190927,
+          44.02903432465782,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature105",
+        "mag": 4.825860575278372,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38783328876772,
+          43.72360377148105,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature106",
+        "mag": 4.260853078814031,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56333246872664,
+          44.00447895694738,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature107",
+        "mag": 2.979003686466881,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23296455297819,
+          44.061188932966274,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature108",
+        "mag": 1.404145442961966,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43375391793798,
+          43.76716267159805,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature109",
+        "mag": 1.1870133306761814,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.57996844292411,
+          44.0468628408542,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature110",
+        "mag": 2.3080151875342514,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41201319184358,
+          43.85394251558812,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature111",
+        "mag": 2.935122437266478,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28446650760631,
+          44.02295264752882,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature112",
+        "mag": 0.12893918792345582,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51298656009843,
+          43.85025181002081,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature113",
+        "mag": 1.2954451922345473,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29930460910784,
+          43.82115199705357,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature114",
+        "mag": 3.204752077580949,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.53787766479496,
+          43.99547488364736,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature115",
+        "mag": 2.2168972631321986,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29965054135177,
+          43.75405427739229,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature116",
+        "mag": 2.2416826982938467,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.57677262165298,
+          43.77260838232456,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature117",
+        "mag": 2.247762241547135,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.57050145034614,
+          44.03488509462575,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature118",
+        "mag": 0.02182002886112533,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54817851574413,
+          43.781241206556466,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature119",
+        "mag": 4.192572817554247,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.60655953495589,
+          43.87756406940665,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature120",
+        "mag": 4.3450691352057165,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.48465394754699,
+          43.873846052843966,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature121",
+        "mag": 0.22271210871824432,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29939563215224,
+          43.79695929893268,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature122",
+        "mag": 4.208830497910537,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51936976639924,
+          43.83181845145228,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature123",
+        "mag": 0.5868025670117627,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35965046698642,
+          44.06544883572366,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature124",
+        "mag": 2.7316589375323557,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34299838532714,
+          43.91317704851177,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature125",
+        "mag": 1.920912600313619,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31461264969687,
+          43.92630818268899,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature126",
+        "mag": 2.0674619133595358,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4574802875893,
+          43.767634326014296,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature127",
+        "mag": 0.07622624637805941,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50836897856007,
+          43.973386464985666,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature128",
+        "mag": 2.148976409316833,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2504491894804,
+          44.0773110404789,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature129",
+        "mag": 0.07672781348433189,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.33111930319207,
+          43.78547620679291,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature130",
+        "mag": 1.1293647781689757,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44370649419413,
+          43.91025343091896,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature131",
+        "mag": 3.543460555514946,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2386631018131,
+          43.810146261357374,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature132",
+        "mag": 0.6974581969568305,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40591291698104,
+          43.95049008901115,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature133",
+        "mag": 1.0180887663097722,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45938206429572,
+          44.05040987006607,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature134",
+        "mag": 3.3407232095794708,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34862321652878,
+          43.99782091532844,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature135",
+        "mag": 0.5678216754899162,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.33248045056548,
+          43.98046656320825,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature136",
+        "mag": 4.987573287420584,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54307534626622,
+          43.840647893789075,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature137",
+        "mag": 0.05496767662296842,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26639926196715,
+          44.02745179251832,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature138",
+        "mag": 2.506102647689545,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32569280517438,
+          43.97579986275007,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature139",
+        "mag": 3.535397239941036,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44676383676585,
+          43.93621198108976,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature140",
+        "mag": 3.3913963894993615,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25264644564143,
+          43.70419211851255,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature141",
+        "mag": 2.7910233775355504,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34380917429179,
+          43.868908520206126,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature142",
+        "mag": 2.593926347346475,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42682415647184,
+          43.85805328954294,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature143",
+        "mag": 4.328576244572871,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.52071006558965,
+          43.7621037693625,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature144",
+        "mag": 2.5387705230615314,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.22956354634653,
+          43.821094133926266,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature145",
+        "mag": 1.3552151900545983,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.59887712543375,
+          43.95451896736018,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature146",
+        "mag": 3.3660737493021116,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55388382502336,
+          43.99932322982503,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature147",
+        "mag": 3.76126056469398,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44342756624866,
+          44.001172801891016,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature148",
+        "mag": 2.721381705243819,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27507774245368,
+          43.72919629318878,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature149",
+        "mag": 3.641101085061984,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45308223149593,
+          43.785820969553654,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature150",
+        "mag": 0.7597996764835213,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29890514505021,
+          43.97662125624925,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature151",
+        "mag": 1.2392941745732684,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43844916204166,
+          43.81059857658625,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature152",
+        "mag": 2.7142907094208417,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41358584767886,
+          43.71409599733892,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature153",
+        "mag": 2.057388747997135,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41331830493222,
+          44.02959975017025,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature154",
+        "mag": 2.352110174926087,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35362795922575,
+          44.089720706936596,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature155",
+        "mag": 3.465696559105238,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41853952976113,
+          43.95073465854054,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature156",
+        "mag": 1.7558260697018047,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55620816068574,
+          43.88447334650478,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature157",
+        "mag": 4.9689933283134895,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5902597127038,
+          43.771655274985825,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature158",
+        "mag": 3.312205227405418,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5909837441517,
+          43.87518618586646,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature159",
+        "mag": 3.70611451992991,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38392758926145,
+          43.952607812291184,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature160",
+        "mag": 3.713721770619529,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30084268699245,
+          43.98699504210173,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature161",
+        "mag": 3.9053116112253545,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30755528570397,
+          44.097184613231164,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature162",
+        "mag": 2.4782329853499414,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41240299672994,
+          43.92393979718576,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature163",
+        "mag": 4.178309283771544,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.61555783463739,
+          44.059706795295455,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature164",
+        "mag": 1.6411337193151088,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.47828122518713,
+          43.90289209577075,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature165",
+        "mag": 1.452321689923658,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.52454959091916,
+          43.82271490131704,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature166",
+        "mag": 3.2500218715487406,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.47792957092344,
+          43.93762653068128,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature167",
+        "mag": 3.07946898500977,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37327189377929,
+          43.71022256683984,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature168",
+        "mag": 2.588082874248296,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.24436188524254,
+          43.826821058227864,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature169",
+        "mag": 1.9435827963310763,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50837359976738,
+          43.79154190421918,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature170",
+        "mag": 3.9492021628148155,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32951142062299,
+          43.78950533237909,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature171",
+        "mag": 0.244177872578335,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51572213522421,
+          43.73060153329341,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature172",
+        "mag": 4.565475039010134,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23664221806952,
+          43.90585697750658,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature173",
+        "mag": 2.6417573133076533,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.48564512293673,
+          43.959718891125206,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature174",
+        "mag": 0.8110377007227221,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.478637877278,
+          43.767027889966386,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature175",
+        "mag": 0.7502705380503766,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40994034522865,
+          43.799657995979715,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature176",
+        "mag": 4.917986164130838,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36545536422157,
+          43.73558007914845,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature177",
+        "mag": 4.882031800251222,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55025917135227,
+          43.79122882350107,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature178",
+        "mag": 3.9630373651576436,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28245215142167,
+          43.92829149705038,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature179",
+        "mag": 3.380420356565768,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.53432252163284,
+          43.89301325001601,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature180",
+        "mag": 1.313953229905963,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38908073655271,
+          44.039150265531035,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature181",
+        "mag": 1.3373727353895322,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2850156965592,
+          44.01245175813256,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature182",
+        "mag": 0.14533679234606356,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56129020959409,
+          44.03052001543805,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature183",
+        "mag": 2.5926503660745897,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37789856875962,
+          43.81801475319516,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature184",
+        "mag": 4.2139806352515965,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.33011184731902,
+          43.8063430570746,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature185",
+        "mag": 0.13498547373288539,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43674464903326,
+          43.87003552635299,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature186",
+        "mag": 1.7711652280206187,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34702914061394,
+          43.75553579438464,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature187",
+        "mag": 0.8178725745325333,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2935627109355,
+          43.7373219262706,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature188",
+        "mag": 3.184527735523068,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31322114116676,
+          43.72252692895207,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature189",
+        "mag": 2.0274881828880837,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39671901300404,
+          43.941526611884996,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature190",
+        "mag": 0.9095270797181637,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54098235414924,
+          43.7925826981681,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature191",
+        "mag": 4.519680649143435,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4591784311133,
+          43.79403216052587,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature192",
+        "mag": 4.890271819250793,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.22575537235682,
+          44.01608331969909,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature193",
+        "mag": 2.759165849192466,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.52447212291777,
+          43.85986911817088,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature194",
+        "mag": 1.0362142805880181,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42138246964522,
+          43.86299300694245,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature195",
+        "mag": 1.1739164199031604,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.48648259949519,
+          43.940799828701934,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature196",
+        "mag": 1.7642205856998645,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46478167347317,
+          43.77504982057559,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature197",
+        "mag": 1.624297643838673,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32825236688109,
+          43.701675328985885,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature198",
+        "mag": 3.6922166514319255,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.33612762584474,
+          43.8288202964126,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature199",
+        "mag": 0.9754387147687171,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45148445552601,
+          43.86832727285799,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toronto_feature200",
+        "mag": 1.1692459036940965,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31572422455794,
+          43.7885732559336,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature1",
+        "mag": 2.0761595838953517,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.60336743329034,
+          43.519031553903396,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature2",
+        "mag": 1.8532433838899869,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.71617659962247,
+          43.58768800726986,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature3",
+        "mag": 2.4627115875050762,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.76244647738369,
+          43.593460573952164,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature4",
+        "mag": 4.121960682088591,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5977564220513,
+          43.63457249974959,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature5",
+        "mag": 2.2688041348592085,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.72837836693503,
+          43.62055818632648,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature6",
+        "mag": 0.5399145058456717,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.61783627572629,
+          43.68016551751789,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature7",
+        "mag": 1.9380172679724716,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56617527876496,
+          43.55600359109655,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature8",
+        "mag": 1.9599576802632206,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.67744643457436,
+          43.59226749667975,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature9",
+        "mag": 3.673957132866011,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.64106410373175,
+          43.53052413251322,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature10",
+        "mag": 3.389335624007564,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58404448267737,
+          43.57556608913822,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature11",
+        "mag": 1.8943727348208466,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.59317375081984,
+          43.60108722011132,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature12",
+        "mag": 2.4294173091104074,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.66637984348463,
+          43.64250368663274,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature13",
+        "mag": 2.1817504505743743,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.62075519857537,
+          43.641230337189974,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature14",
+        "mag": 3.7161977677291813,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58085846984483,
+          43.67474971593009,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature15",
+        "mag": 1.4127468796678895,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.66633145470755,
+          43.59718541470565,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature16",
+        "mag": 1.3156727397284746,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55938936566635,
+          43.63211660580597,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature17",
+        "mag": 2.583890987789016,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56562048920708,
+          43.643520228348855,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature18",
+        "mag": 4.877262823929776,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6470048289987,
+          43.68560462562847,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature19",
+        "mag": 4.426550530452233,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.60435256590544,
+          43.6023127628361,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature20",
+        "mag": 2.6064609462513912,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6851056579604,
+          43.67186846645181,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature21",
+        "mag": 4.603697801875204,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.71278722069552,
+          43.62146875443111,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature22",
+        "mag": 0.2594676165781151,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7029185834133,
+          43.556992451362845,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature23",
+        "mag": 4.685683863787902,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.53059129477653,
+          43.58718936775782,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature24",
+        "mag": 2.989672684848608,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58761074097336,
+          43.56143255359438,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature25",
+        "mag": 4.492159263670648,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.59566876542775,
+          43.67396927838172,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature26",
+        "mag": 2.3547964095401634,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.68815387785695,
+          43.59872479655303,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature27",
+        "mag": 3.0268887018600448,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.62379882214934,
+          43.678705068952056,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature28",
+        "mag": 0.6235541969728131,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.74604062285216,
+          43.565940301389666,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature29",
+        "mag": 2.5792784793404673,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54383080537437,
+          43.60926916461314,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature30",
+        "mag": 2.4508046406918855,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55141346156675,
+          43.548033220112956,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature31",
+        "mag": 0.427397534986495,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.57962104029578,
+          43.56611697281063,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature32",
+        "mag": 1.3640670227592762,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.62615212444364,
+          43.668938650493466,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature33",
+        "mag": 3.404660054428442,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.75429500799513,
+          43.63489921883152,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature34",
+        "mag": 0.00908967117124071,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.52442858865405,
+          43.59491191256773,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature35",
+        "mag": 2.8482198342566707,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.66904041377076,
+          43.631203918568495,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature36",
+        "mag": 1.2337712986896125,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.71107865238429,
+          43.60850646256327,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature37",
+        "mag": 4.623414863113125,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.57932233164425,
+          43.58216141974955,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature38",
+        "mag": 0.8847912968142563,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.57775143237951,
+          43.561622821398345,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature39",
+        "mag": 1.5307467904037453,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.72880940389884,
+          43.57725910510589,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature40",
+        "mag": 4.071057213858986,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.61200636371996,
+          43.635772195086055,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature41",
+        "mag": 0.6483368893017105,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7456160608104,
+          43.64563665129845,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature42",
+        "mag": 0.4598480058080573,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.60625787846146,
+          43.618888736707895,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature43",
+        "mag": 4.846248785855299,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.62057712166383,
+          43.54944359013723,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature44",
+        "mag": 3.859571379476581,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54753782269113,
+          43.6127638035747,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature45",
+        "mag": 1.269856787087097,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.66907791279013,
+          43.60477801414049,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature46",
+        "mag": 2.8820234237977367,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.60628051721741,
+          43.55346077181988,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature47",
+        "mag": 1.5084390010863928,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55932706869598,
+          43.62785828309187,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature48",
+        "mag": 2.616320291656613,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58776190078484,
+          43.57395680507391,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature49",
+        "mag": 4.907268710952673,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.75344859941715,
+          43.59178668756373,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature50",
+        "mag": 0.19858361587730244,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.71109114097783,
+          43.60778958245396,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature51",
+        "mag": 4.29341762515871,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.57435339851463,
+          43.58369679629991,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature52",
+        "mag": 3.872829445994068,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6292886001928,
+          43.62572377058414,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature53",
+        "mag": 4.40462321459531,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.69817130576199,
+          43.526237586244406,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature54",
+        "mag": 0.4770122305009161,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56888774982721,
+          43.587115713875086,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature55",
+        "mag": 0.2366436589214227,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.62261131544857,
+          43.682580211201,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature56",
+        "mag": 0.6169567567146284,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.64996784492133,
+          43.61054021093468,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature57",
+        "mag": 3.8104361422895616,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.61724635654551,
+          43.5429578263234,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature58",
+        "mag": 1.9412761614550111,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.71827058820598,
+          43.56654452662808,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature59",
+        "mag": 1.0072461886749307,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.67673416392813,
+          43.6564543680524,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature60",
+        "mag": 1.2630590261979986,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.63644354366913,
+          43.677605834025144,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature61",
+        "mag": 2.8292917608955332,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.68030804358266,
+          43.6631400297319,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature62",
+        "mag": 0.8010820707793248,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6347415314806,
+          43.67096918328081,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature63",
+        "mag": 1.4580785139664976,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.59810150191842,
+          43.56907894083108,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature64",
+        "mag": 2.2011543987495323,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.68211363554538,
+          43.653182355296416,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature65",
+        "mag": 3.374049584367435,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.67596415205064,
+          43.57467180148346,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature66",
+        "mag": 2.0690873614415906,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.69756539923183,
+          43.5690326258975,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature67",
+        "mag": 4.738770802879238,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.73030213285983,
+          43.557914081874095,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature68",
+        "mag": 0.0413043545960845,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.72369017624277,
+          43.54351967486567,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature69",
+        "mag": 1.4369255075886056,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5383444171081,
+          43.59035012451702,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature70",
+        "mag": 1.5919285069263167,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.64072327006981,
+          43.584260166699124,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature71",
+        "mag": 2.180355936182335,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.57021782267768,
+          43.54142891799783,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature72",
+        "mag": 4.017062074999423,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.72946979084874,
+          43.62850965762372,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature73",
+        "mag": 0.4745747605461076,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6208205145799,
+          43.67084407717162,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature74",
+        "mag": 1.9406522301245788,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.61833982221219,
+          43.51643042740493,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature75",
+        "mag": 4.94820842211604,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.73646299314547,
+          43.57626491575002,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature76",
+        "mag": 2.208039219072529,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56261537902151,
+          43.53716812219736,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature77",
+        "mag": 2.5825468316103195,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.65507358578297,
+          43.583573173825904,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature78",
+        "mag": 1.7751750803584914,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.74701018687053,
+          43.56713775821863,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature79",
+        "mag": 2.600213771633148,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.60376036245482,
+          43.5370672583087,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature80",
+        "mag": 0.14274032570491535,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.64619360046949,
+          43.62451014187541,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature81",
+        "mag": 3.836855523921887,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.53097749204663,
+          43.6260225318897,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature82",
+        "mag": 3.155896587120694,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.60722419972535,
+          43.59310235793416,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature83",
+        "mag": 4.617873451594504,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.64410783123301,
+          43.64819861083681,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature84",
+        "mag": 3.5266539724742674,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.59461710451014,
+          43.66183721780488,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature85",
+        "mag": 4.338720763281999,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54232337779936,
+          43.62969259988051,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature86",
+        "mag": 0.6170228834742281,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.71673491327445,
+          43.56357497695596,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature87",
+        "mag": 2.1655801909578827,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.69341510755244,
+          43.6636188041197,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature88",
+        "mag": 3.2390276125672353,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.65565791786834,
+          43.67360523154989,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature89",
+        "mag": 2.4911205745054517,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.59035712256829,
+          43.61360969466936,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature90",
+        "mag": 1.4138217476420056,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.62347395423748,
+          43.62835005102022,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature91",
+        "mag": 3.9461799569915295,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5895852627531,
+          43.62463182984295,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature92",
+        "mag": 2.0617221394353136,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5590731659722,
+          43.627027117784095,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature93",
+        "mag": 1.0382359611863845,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.71566626650892,
+          43.52995036251675,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature94",
+        "mag": 1.6568036520604572,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54110047940863,
+          43.553018992864956,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature95",
+        "mag": 4.11510267013307,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.69657519466323,
+          43.58132991850964,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature96",
+        "mag": 2.2067039875631473,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58985550976625,
+          43.600851534915435,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature97",
+        "mag": 4.9024987026675335,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.71939501236739,
+          43.53029972100237,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature98",
+        "mag": 2.5123292807679305,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.76318265092723,
+          43.581916830889455,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature99",
+        "mag": 1.4100758567602107,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.76076681538377,
+          43.60190563324021,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mississauga_feature100",
+        "mag": 0.6379658534303961,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6407174427477,
+          43.54261792506536,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature1",
+        "mag": 4.9653152990517775,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2037500091189,
+          43.753704870372935,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature2",
+        "mag": 4.240506145778532,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25563785302307,
+          43.74959289797844,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature3",
+        "mag": 1.4170555513300536,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27319513842602,
+          43.78021071997657,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature4",
+        "mag": 0.6248025721585765,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.24909788392678,
+          43.78806942355193,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature5",
+        "mag": 0.75066690649147,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31243369363928,
+          43.78734526450254,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature6",
+        "mag": 3.0453390581107787,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31274955496069,
+          43.76421570396271,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature7",
+        "mag": 1.438174029976052,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.20738740543045,
+          43.79041961268166,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature8",
+        "mag": 0.9693089785589365,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23532784200451,
+          43.736910641518215,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature9",
+        "mag": 2.977581617833515,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.21765562893903,
+          43.76424271025136,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature10",
+        "mag": 0.9426684629618876,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.19664726648017,
+          43.776779368380026,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature11",
+        "mag": 4.754184141354138,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.21417065690832,
+          43.775247934657905,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature12",
+        "mag": 0.844195609518793,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.21221595101964,
+          43.773530160544006,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature13",
+        "mag": 3.3762043065057146,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27973485164209,
+          43.75714747390449,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature14",
+        "mag": 3.3238941872454646,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2694618707757,
+          43.79276738262339,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature15",
+        "mag": 0.9553399802742168,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29858998325922,
+          43.749223172015675,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature16",
+        "mag": 1.5185946381069533,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25669350089815,
+          43.74605626598281,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature17",
+        "mag": 4.227752219711156,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2807796182316,
+          43.792268608402615,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature18",
+        "mag": 3.7463391678812337,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.21483001987788,
+          43.78679571988685,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature19",
+        "mag": 3.735355912397373,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.20550368410407,
+          43.789067450299584,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature20",
+        "mag": 3.7395712064945537,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26523986011937,
+          43.76215195763459,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature21",
+        "mag": 3.924345516101578,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23772657881688,
+          43.76282006798269,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature22",
+        "mag": 2.889270649733027,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23977502202527,
+          43.81564133339699,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature23",
+        "mag": 2.1507378320586006,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2226675853155,
+          43.760874224222384,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature24",
+        "mag": 2.48757012738533,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.20143427397988,
+          43.75644008216017,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature25",
+        "mag": 0.3433776468592781,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2246114039884,
+          43.74000708078141,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature26",
+        "mag": 0.971510264089861,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30887122395472,
+          43.76848253188931,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature27",
+        "mag": 0.056770219299023816,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.24816330610287,
+          43.80301104426705,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature28",
+        "mag": 2.9308587512752347,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27246215554774,
+          43.76644325257688,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature29",
+        "mag": 4.538194628004114,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30283230523554,
+          43.76213391300464,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature30",
+        "mag": 3.4259072239656927,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23267099525694,
+          43.76451320327877,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature31",
+        "mag": 3.234508813158576,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29767676242791,
+          43.755436753689374,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature32",
+        "mag": 4.373744998609624,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2947381821543,
+          43.75328627722897,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature33",
+        "mag": 1.968654650291977,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29622222211579,
+          43.753359097522804,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature34",
+        "mag": 3.1382813176885356,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25628612442691,
+          43.782196928905655,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature35",
+        "mag": 3.4520550488149278,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23287046034042,
+          43.73507643290065,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature36",
+        "mag": 1.313785423966598,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27385911833838,
+          43.748951054092466,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature37",
+        "mag": 2.203166963593529,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2728640550639,
+          43.76168975879623,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature38",
+        "mag": 2.131346604841003,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25011937625356,
+          43.79369029920197,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature39",
+        "mag": 4.116548003661908,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.263311936462,
+          43.80906238614327,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature40",
+        "mag": 0.6214280731895483,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2793330355056,
+          43.732032088948564,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature41",
+        "mag": 3.641986906798503,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25880165041427,
+          43.733532971348176,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature42",
+        "mag": 0.55201110291417,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.24867546090054,
+          43.78546835895388,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature43",
+        "mag": 3.487299230214216,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.19935269892281,
+          43.7647519455751,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature44",
+        "mag": 1.220432759053149,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2782053799719,
+          43.77764495548653,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature45",
+        "mag": 2.936484747885438,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.20094495021063,
+          43.75901982868498,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature46",
+        "mag": 0.7282649093733706,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29669680688205,
+          43.79532636551888,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature47",
+        "mag": 0.5351916881623858,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27150332368609,
+          43.81129738716946,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature48",
+        "mag": 1.249648698489572,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.21497032374326,
+          43.77502745482995,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature49",
+        "mag": 2.6908135083196747,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25575646107848,
+          43.782875233660505,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "scarborough_feature50",
+        "mag": 0.7068598951698507,
+        "time": 1507425650893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27479839180067,
+          43.80695641897282,
+          0.0
+        ]
+      }
+    }
+  ]
+}
