@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { observeOn } from 'rxjs';
 import { GptComponentComponent } from './gpt-component/gpt-component.component';
+import { MapComponent } from './map/map.component';
 
 interface Conversation {
   content: string;
@@ -20,7 +21,7 @@ export class TranscriptionService implements OnInit {
     throw new Error('Method not implemented.');
   }
   storage: any;
-  constructor(private http: HttpClient, private gpt: GptComponentComponent) { }
+  constructor(private http: HttpClient, private gpt: GptComponentComponent, private map: MapComponent) { }
   ngOnInit() {
     this.sendRequestToServer();
   }
@@ -32,6 +33,9 @@ export class TranscriptionService implements OnInit {
       (response: any) => {
         console.log('Response from server:', response);
         console.log(this.gpt.handleAskGPT(response));
+        if (response[response.length - 1] == 1){
+          this.map.makePin();
+        }
       },
       (error) => {
         console.error('Error:', error);
