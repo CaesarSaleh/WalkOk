@@ -13,7 +13,7 @@ interface Conversation {
 })
 export class GptComponentComponent implements OnInit {
   queryFormGroup!: FormGroup;
-  text: String = "say 1 if conversation is weird, 0 if not:   "
+  text: String = "Please don't say hi at me. AND say 1 if what I said is weird and 0 if not."
   messages = [{ role: 'system', content: this.text }];
   result: any;
   analysis: String = '';
