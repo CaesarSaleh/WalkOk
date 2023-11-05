@@ -14,16 +14,16 @@ import { AppRoutingModule } from './app-routing.module';
   
   declarations: [
     AppComponent,
-    Text2audioComponent
+    Text2audioComponent,
+    GptComponentComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase)
-
   ],
-  providers: [{ provide: FIREBASE_OPTIONS, useValue: environment.firebase }],
+  providers: [{ provide: FIREBASE_OPTIONS, useValue: environment.firebase }, GptComponentComponent],
   bootstrap: [AppComponent]
 
 })

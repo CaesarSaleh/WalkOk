@@ -44,7 +44,7 @@ async def download_audio_file():
 
 
 asyncio.run(download_audio_file())
-API_KEY = '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'
+API_KEY = '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'
 
 model_id = "whisper-1"
 
@@ -69,9 +69,6 @@ def add_cors_headers(response):
     response.headers['Access-Control-Allow-Headers'] = 'Content-Type'
     response.headers['Access-Control-Allow-Methods'] = 'GET, POST, PUT, DELETE, OPTIONS'
     return response
-
-
-
 
 @app.route('/upload')
 def read():

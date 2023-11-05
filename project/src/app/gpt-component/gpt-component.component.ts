@@ -1,6 +1,10 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, Injectable, OnInit } from '@angular/core';
 import { FormGroup } from '@angular/forms';
+
+interface Conversation {
+  content: string;
+}
 
 @Component({
   selector: 'app-gpt-component',
@@ -9,7 +13,7 @@ import { FormGroup } from '@angular/forms';
 })
 export class GptComponentComponent implements OnInit {
   queryFormGroup!: FormGroup;
-  text: String = "classify the following text as whether the text is implying luring kids to cause harm to them(answer yes if it's trying to lure them):  "
+  text: String = "say 1 if conversation is weird, 0 if not:   "
   messages = [{ role: 'system', content: this.text }];
   result: any;
   analysis: String = '';
@@ -17,18 +21,20 @@ export class GptComponentComponent implements OnInit {
 
   constructor(private httpClient: HttpClient) {}
 
+  
   ngOnInit(): void {
-    this.handleAskGPT();
   }
 
-  handleAskGPT() {
+  handleAskGPT(conversation: Conversation) {
     this.requestCount++; // Increment the request count
     console.log('Request Count:', this.requestCount); // Log the request count
+
+    this.text = this.text + conversation.content;
 
     var url = 'https://api.openai.com/v1/chat/completions';
     var httpHeaders = new HttpHeaders().set(
       'Authorization',
-      'Bearer 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'
+      'Bearer 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'
     );
 
     var payload = {
@@ -46,5 +52,6 @@ export class GptComponentComponent implements OnInit {
         // Handle errors
       }
     });
+    // return this.analysis;
   }
 }

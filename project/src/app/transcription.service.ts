@@ -5,7 +5,12 @@ import { getStorage, ref, uploadBytes } from '@angular/fire/storage';
 // http request
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { observeOn } from 'rxjs';
+import { GptComponentComponent } from './gpt-component/gpt-component.component';
 
+interface Conversation {
+  content: string;
+}
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +20,7 @@ export class TranscriptionService implements OnInit {
     throw new Error('Method not implemented.');
   }
   storage: any;
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private gpt: GptComponentComponent) { }
   ngOnInit() {
     this.sendRequestToServer();
   }
@@ -24,11 +29,13 @@ export class TranscriptionService implements OnInit {
     const serverUrl = 'http://localhost:4000/upload'; // Replace with your server URL
 
     this.http.get(serverUrl).subscribe(
-      (response) => {
+      (response: any) => {
         console.log('Response from server:', response);
+        console.log(this.gpt.handleAskGPT(response));
       },
       (error) => {
         console.error('Error:', error);
+        
       }
     );
   }
@@ -81,8 +88,8 @@ export class TranscriptionService implements OnInit {
       // Stop recording after a certain time (e.g., 5 seconds)
       setTimeout(() => {
         mediaRecorder.stop();
-        this.sendRequestToServer()
-      }, 5000);
+      }, 3000);
+      this.sendRequestToServer()
     });
 
 
